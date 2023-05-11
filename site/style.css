@@ -1,0 +1,106 @@
+*{
+    margin:10px;
+  
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/*MENU*/
+
+header{
+    position: sticky;
+    top: 0;
+  
+}
+nav img:hover{
+    width: 500px;
+    height: 500px;
+    margin-top: 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;    
+    width: auto;
+    margin-top: 20px;
+    background-color: black;
+}
+nav a{
+    text-decoration: none;  
+    color: aliceblue;  
+    padding: 20px 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+nav a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+ /*Seção*/
+.Front{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+       
+
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-left: 100px;
+    
+
+}
+
+.grid-1 .anuncio{
+    grid-row: 1/3;
+    padding-right: 100px;
+}
+
+
+        /*Div1*/
+.divisao-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.divisao-1 h2{
+    color: white;
+}
+.divisao-1 span{
+    height: 10px;
+    width: 30%;
+    background-color: white;
+    
+}
+.divisao-1 h2{
+            font-size: 50px;
+}
+        /*RODAPE*/
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+}
+.rodape img{
+    height: 80px;
+}
+.rodape img:hover{
+    color: white;
+    margin-top: 5px;
+    box-shadow: 0 2px 0 0 currentColor;
+}
